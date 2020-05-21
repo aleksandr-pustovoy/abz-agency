@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 736px;
+  @media screen and (min-width: 772px) {
+    padding: 0;
+  }
+}
+
+.container-banner {
+  display: block;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1120px;
+  @media screen and (min-width: 1120px) {
+    padding: 0;
+  }
+}
